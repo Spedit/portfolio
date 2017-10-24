@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+    background: url(img/home-office-336373_1920.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 440px) {
+    html {
+        height: 100%;
+        overflow: hidden;
+    }
+    body {
+        height: 100%;
+        overflow: scroll;
+    }
+}
+
+.bo {
+    background-color: transparent;
+}
+
+.nav-bg{
+    position: fixed;
+    right: 0;
+    width: auto;
+
+    padding-right: 70px;
+    z-index: 1;
+}
+.nav1{
+    background: rgba(70, 130, 180, 0.5);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    z-index: 2;
+}
+
+.nav1 a{
+    color: white;
+    text-align: right;
+}
+
+
+
+.nav1 li{
+    padding-top: 5px;
+    display: inline-block;
+    list-style-type: none;
+
+}
+.nav1 a:hover{
+
+    background-color: snow;
+    border-bottom: 4px;
+    color: black;
+}
+
+@media (max-width: 440px) {
+    .nav-bg{
+        position: fixed;
+        right: 0;
+        width: auto;
+
+        padding-right: 10px;
+        z-index: 1;
+    }
+    .nav1 li {
+        padding-top: 5px;
+        display: inline-block;
+        list-style-type: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 75%;
+    }
+}
+.main-cl{
+    padding-top: 80px;
+    margin-left: 15%;
+}
+.
+
+.social, .home {
+    background-color: transparent;
+}
+.welcome{
+    opacity: 0.7;
+
+}
+
+.home {
+    color: white;
+
+}
+.me {
+    background-color: rgba(70, 130, 180 ,0.1);
+    background-size: cover;
+    color: rgba(255, 250, 250, 0.9);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 15%;
+}
+
+.projects{
+    background-color: rgba(70, 130, 180 ,0.1);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 15%;
+}
+.contact-b{
+    color: black;
+    background-color: rgba(70, 130, 180 ,0.1);
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 2%;
+
+}
+.project-block{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.project-mini {
+    background-color: rgba(70, 130, 180 ,0.5);
+    height: 180px;
+    width: 280px;
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+
+}
+.project-mini a {
+    color: white;
+    top: 50%;
+    text-decoration: none;
+}
+.loc{
+    position: relative;
+    display: inline-block;
+    width: 1rem;
+    height: 10px;
+    top: 30%;
+}
+.contacta{
+    background-color: rgba(70, 130, 180 ,0.08);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 15%;
+}
+
+social {
+
+}
+.social ul {
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 15%;
+}
+.social li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.btn-co {
+    border: 1px;
+    box-shadow: 0 0 1em #ccc;
+    margin-top: 10px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    margin-left: 10px;
+}
+.submit1 {
+
+}
+
+.contact{
+    padding-left: 3%;
+    padding-right: 3%;
+    align-content: center;
+}
+.form-size{
+    width: 50%;
+}
+
+@media (max-width: 440px) {
+    .form-size{
+        width: 100%;
+    }
+
+}
+
+.footer-me {
+    font-size: 11px;
+    text-align: center;
+    color: black;
+}
+
+.success {
+    margin-bottom: .75rem;
+    padding: 1em;
+    background-color: rgba(70, 130, 180, .2);
+}
+
+.error {
+    margin-bottom: .75rem;
+    padding: 1em;
+    background-color: rgba(70, 130, 180, .2);
+}
+
+
+.icon {
+    color:  rgba(70, 130, 180 ,0.5);
+    position: relative;
+    display: inline-block;
+    width: 12rem;
+    height: 10rem;
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: -1.25rem;
+    background: rgba(70, 130, 180 ,0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.375rem #fff;
+    -webkit-animation: spin 12s infinite linear;
+    animation: spin 12s infinite linear;
+}
+
+
+.rays {
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    display: block;
+    width: 0.375rem;
+    height: 1.125rem;
+    margin-left: -0.1875rem;
+    background: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 5.375rem #fff;
+}
+
+.rays:before,
+.rays:after {
+    content: '';
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    display: block;
+    width: 0.375rem;
+    height: 1.125rem;
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+    -webkit-transform-origin: 50% 3.25rem;
+    -ms-transform-origin: 50% 3.25rem;
+    transform-origin: 50% 3.25rem;
+    background: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 5.375rem #fff;
+}
+
+.rays:before {
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
