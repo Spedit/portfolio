@@ -127,7 +127,8 @@ html {
 }
 .project-mini {
     background-color: rgba(70, 130, 180 ,0.5);
-    height: 180px;
+    display: inline-table;
+    height: 190px;
     width: 280px;
     margin: 15px;
     justify-content: center;
