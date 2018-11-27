@@ -4,7 +4,7 @@
 if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //twoje dane
-    $email = 'admin@spedia.tk';
+    $email = 'contact@example.com';
 
 //dane z formularza
     $formName = $_POST['formName'];
